@@ -7,31 +7,39 @@ html{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 410px;
+    height: 630px;
+    width: 730px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1px;
 }
 
 .green{
     background-color: #008000;
-    padding: 200px 250px 0 0;
-    margin: 2px;
+    width: 350px;
+    height: 300px;
+    margin: 10px 5px 5px 10px;
 }
 
 .red{
     background-color: #ff0000;
-    padding: 200px 250px 0 0;
-    margin: 2px;
+    width: 350px;
+    height: 300px;
+    margin: 5px 5px 10px 10px;
 
 }
 
 .blue{
     background-color: #0000ff;
-    padding: 100px 250px 0 0;
-    margin: 2px;
+    width: 350px;
+    height: 150px;
+    margin: 10px 10px 5px 5px;
 
 }
 
 .purple{
     background-color: #8a2be2;
-    padding: 300px 250px 0 0;
-    margin: 2px;
+    width: 350px;
+    height: 450px;
+    margin: 5px 10px 10px 5px;
 }
