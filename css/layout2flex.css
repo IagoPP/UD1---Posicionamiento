@@ -1,0 +1,31 @@
+html{
+    height: 100%;
+}
+
+.white{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: solid;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #931414;
+}
+
+.yellow{
+    background-color: #f0e68c;
+    padding: 125px 22.5% 125px 22.5%;
+    border: solid;
+    border-width: 1px;
+    border-color: #3f5b54;
+}
+
+.blue{
+    background-color: #e0ffff;
+    padding: 125px 22.5% 125px 22.5%;
+    border: solid;
+    border-width: 1px;
+    border-color: #ce6565;
+}

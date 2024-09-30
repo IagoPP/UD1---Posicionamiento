@@ -1,0 +1,37 @@
+html{
+    height: 100%;
+    
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 410px;
+}
+
+.green{
+    background-color: #008000;
+    padding: 200px 250px 0 0;
+    margin: 2px;
+}
+
+.red{
+    background-color: #ff0000;
+    padding: 200px 250px 0 0;
+    margin: 2px;
+
+}
+
+.blue{
+    background-color: #0000ff;
+    padding: 100px 250px 0 0;
+    margin: 2px;
+
+}
+
+.purple{
+    background-color: #8a2be2;
+    padding: 300px 250px 0 0;
+    margin: 2px;
+}

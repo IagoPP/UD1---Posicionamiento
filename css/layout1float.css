@@ -1,0 +1,28 @@
+html{
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.blue{
+    float: left;
+    width: 33.33%;
+    height: 250px;
+    background-color: #0000ff;
+}
+
+.white{
+    float: left;
+    width: 33.33%;
+    height: 250px;
+    background-color: #ffffff;
+}
+
+.red{
+    float: left;
+    width: 33.33%;
+    height: 250px;
+    background-color: #ff0000;
+}

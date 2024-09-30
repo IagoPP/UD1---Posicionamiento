@@ -1,0 +1,27 @@
+html{
+    height: 100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(250px, auto);
+    border: solid;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #931414;
+}
+
+.yellow{
+    grid-column: 1 / 2;
+    grid-row: 1;
+    background-color: #f0e68c;
+    margin: 15px 0px 15px 15px;
+}
+
+.blue{
+    grid-column: 2 / 2;
+    grid-row: 1;
+    background-color: #e0ffff;
+    margin: 15px 15px 15px 0px;
+}

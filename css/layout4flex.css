@@ -1,0 +1,23 @@
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-style: dotted;
+    border-width: 1px;
+}
+
+.orange{
+    background-color: #ff7f50;
+    padding: 200px 0 0 0;
+    margin: 4px 4px 2px 4px;
+}
+
+.blue{
+    background-color: #6495ed;
+    padding: 200px 0 0 0;
+    margin: 2px 4px 4px 4px;
+}

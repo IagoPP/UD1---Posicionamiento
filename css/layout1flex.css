@@ -1,0 +1,26 @@
+html{
+    height: 50%;
+}
+
+body{
+    display: flex;
+    height: 50%;
+}
+
+#blue{
+    background-color: #0000ff;
+    height: 100%;
+    width: 100%;
+}
+
+#white{
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+}
+
+#red{
+    background-color: #ff0000;
+    height: 100%;
+    width: 100%;
+}
