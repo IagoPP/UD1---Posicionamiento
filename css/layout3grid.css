@@ -9,7 +9,7 @@ html{
   }
 
 .wrapper{
-    width: 1000px;
+    width: 600px;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(2, 1fr);
@@ -17,6 +17,7 @@ html{
     border-style: solid;
     border-color: black;
     border-radius: 1px;
+    padding: 10px;
 }
 
 .green{
