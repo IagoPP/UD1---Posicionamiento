@@ -32,34 +32,34 @@ public class GridBagLayoutDemo {
 
         c.gridx = 0;
         c.gridy = 0;
-
+        c.ipadx = 100;
         c.gridheight = 4;
         pane.add(label, c);
 
         // temporal
-        label = new JLabel();
+        label = new JLabel("hola");
         label.setOpaque(true);
         label.setBackground(Color.BLACK);
 
         c.gridx = 0;
         c.gridy = 4;
-        c.ipadx = 100;
-        c.ipady = 100;
+
         c.gridheight = 4;
         pane.add(label, c);
 
         // green
-        label = new JLabel();
+        label = new JLabel("hola");
         label.setOpaque(true);
         color = new Color(56, 120, 0);
         label.setBackground(color);
         c.gridx = 1;
         c.gridy = 0;
+        c.ipadx = 50;
         c.gridheight = 1;
         pane.add(label, c);
 
         // blue
-        label = new JLabel();
+        label = new JLabel("hola");
         label.setOpaque(true);
         color = new Color(1, 80, 159);
         label.setBackground(color);
